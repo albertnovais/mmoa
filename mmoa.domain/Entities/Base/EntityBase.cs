@@ -1,7 +1,7 @@
 ﻿using FluentValidator;
 using System;
 
-namespace mmoa.domain.Entities.Base
+namespace mmoa.Domain.Entities.Base
 {
     public abstract class EntityBase : Notifiable
     {

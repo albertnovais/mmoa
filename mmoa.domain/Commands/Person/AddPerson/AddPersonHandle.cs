@@ -1,11 +1,9 @@
 ﻿using FluentValidator;
 using MediatR;
-using System;
-using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace mmoa.domain.Commands.Person.AddPerson
+namespace mmoa.Domain.Commands.Person.AddPerson
 {
     public class AddPersonHandle : Notifiable, IRequestHandler<AddPersonRequest, Response>
     {

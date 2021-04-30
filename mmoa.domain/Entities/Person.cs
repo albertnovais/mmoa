@@ -1,12 +1,16 @@
 ﻿using FluentValidator.Validation;
-using mmoa.domain.Entities.Base;
+using mmoa.Domain.Entities.Base;
 using System;
 using mmoa.Domain.Extencions;
 
-namespace mmoa.domain.Entities
+namespace mmoa.Domain.Entities
 {
     public class Person :EntityBase
     {
+        public Person()
+        {
+        }
+
         public Person(string name, string emailAddress, string password)
         {
             Name = name;

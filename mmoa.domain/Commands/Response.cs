@@ -1,4 +1,4 @@
-﻿namespace mmoa.domain.Commands
+﻿namespace mmoa.Domain.Commands
 {
     public class Response
     {

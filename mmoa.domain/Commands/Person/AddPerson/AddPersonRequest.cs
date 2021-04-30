@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MediatR;
 
-namespace mmoa.domain.Commands.Person.AddPerson
+namespace mmoa.Domain.Commands.Person.AddPerson
 {
-    public class AddPersonRequest
+    public class AddPersonRequest : IRequest<Response>
     {
         public string Name { get; set; }
 
