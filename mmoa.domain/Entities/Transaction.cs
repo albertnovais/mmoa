@@ -1,6 +1,8 @@
-﻿using mmoa.Domain.Entities.Base;
+﻿using mmoa.domain.Entities;
+using mmoa.Domain.Entities;
+using mmoa.Domain.Entities.Base;
 
-namespace mmoa.domain.Entities
+namespace mmoa.Domain.Entities
 {
     public class Transaction:EntityBase
     {
@@ -8,19 +10,13 @@ namespace mmoa.domain.Entities
         {
         }
 
-        public Transaction(string description, decimal value, bool isSameHolder, bool isEntry, Institution institution, Institution originInstitution)
+        public Transaction(bool isSameHolder, bool isEntry, Institution institution, Person person)
         {
-            Description = description;
-            Value = value;
             IsSameHolder = isSameHolder;
             IsEntry = isEntry;
             Institution = institution;
-            OriginInstitution = originInstitution;
+            Person = person;
         }
-
-        public string Description { get; set; }
-
-        public decimal Value { get; private set; }
 
         public bool IsSameHolder  { get; private set; }
 
@@ -28,7 +24,7 @@ namespace mmoa.domain.Entities
 
         public Institution Institution { get; private set; }
 
-        public Institution? OriginInstitution { get; private set; }
-     
+        public Person Person { get; private set; }
+
     }
 }

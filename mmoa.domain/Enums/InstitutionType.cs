@@ -1,4 +1,4 @@
-﻿namespace mmoa.domain.Enums
+﻿namespace mmoa.Domain.Enums
 {
     public enum InstitutionType
     {

@@ -2,18 +2,28 @@
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
+using mmoa.Domain.Interfaces.Repositories;
 
 namespace mmoa.Domain.Commands.Person.AddPerson
 {
     public class AddPersonHandle : Notifiable, IRequestHandler<AddPersonRequest, Response>
     {
+
+        private readonly IRepositoryPerson repositoryPerson;
+
+        public AddPersonHandle(IRepositoryPerson repositoryPerson)
+        {
+            this.repositoryPerson = repositoryPerson;
+        }
+
         public Task<Response> Handle(AddPersonRequest request, CancellationToken cancellationToken)
         {
-            var person = new Entities.Person(request.Name, request.EmailAddress, request.Password);
+            var person = new Entities.Person(request.Name);
 
             return Verify(person);
+
         }
-      
+
 
         private Task<Response> Verify(Entities.Person person)
         {
@@ -26,7 +36,9 @@ namespace mmoa.Domain.Commands.Person.AddPerson
                 result = new Response(Valid, "Valide os campos enviados", Notifications);
                 return Task.FromResult(result);
             }
-                result = new Response(Valid, "ok", null);
+
+            repositoryPerson.Add(person);
+            result = new Response(Valid, "ok", person);
 
             return Task.FromResult(result);
 

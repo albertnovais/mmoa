@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\mmoa.domain\\mmoa.domain.csproj": {}
+    "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\mmoa.domain\\mmoa.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\mmoa.domain\\mmoa.domain.csproj": {
+    "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\mmoa.domain\\mmoa.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\mmoa.domain\\mmoa.domain.csproj",
-        "projectName": "mmoa.domain",
-        "projectPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\mmoa.domain\\mmoa.domain.csproj",
+        "projectUniqueName": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\mmoa.domain\\mmoa.Domain.csproj",
+        "projectName": "mmoa.Domain",
+        "projectPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\mmoa.domain\\mmoa.Domain.csproj",
         "packagesPath": "C:\\Users\\albert.mascarenhas\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\mmoa.domain\\obj\\",
         "projectStyle": "PackageReference",

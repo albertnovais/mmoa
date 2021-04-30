@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cTjpsNQl0e/0Ps79MjNBCh/QG1NGjL7au/WhCn+Y7SxKw4I8FL0zO1rNcnDJ8hIf4VGSQE+j7JBChs0xz/gDIQ==",
+  "dgSpecHash": "XlnB8QEb1Fn6gFfjVsOWG+VqZcHUhHtMZv1kTBtGF6wSbPyUmyeo9Wd6Yd9L8tgOqjD736LXIymYB+/OErX+Dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\mmoa.domain\\mmoa.domain.csproj",
+  "projectFilePath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\mmoa.domain\\mmoa.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\albert.mascarenhas\\.nuget\\packages\\fluentvalidator\\2.0.4\\fluentvalidator.2.0.4.nupkg.sha512",
     "C:\\Users\\albert.mascarenhas\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",

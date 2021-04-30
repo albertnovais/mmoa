@@ -1,0 +1,4 @@
+C:\Users\albert.mascarenhas\source\repos\mmoa\mmoa.domain\obj\Debug\netcoreapp3.1\mmoa.Domain.csprojAssemblyReference.cache
+C:\Users\albert.mascarenhas\source\repos\mmoa\mmoa.domain\obj\Debug\netcoreapp3.1\mmoa.Domain.AssemblyInfoInputs.cache
+C:\Users\albert.mascarenhas\source\repos\mmoa\mmoa.domain\obj\Debug\netcoreapp3.1\mmoa.Domain.AssemblyInfo.cs
+C:\Users\albert.mascarenhas\source\repos\mmoa\mmoa.domain\obj\Debug\netcoreapp3.1\mmoa.Domain.csproj.CoreCompileInputs.cache

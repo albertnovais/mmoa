@@ -1,7 +1,7 @@
-﻿using mmoa.domain.Enums;
-using mmoa.Domain.Entities.Base;
+﻿using mmoa.Domain.Entities.Base;
+using mmoa.Domain.Enums;
 
-namespace mmoa.domain.Entities
+namespace mmoa.Domain.Entities
 {
     public class Institution : EntityBase
     {

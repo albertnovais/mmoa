@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace mmoa.domain.Enums
+namespace mmoa.Domain.Enums
 {
-    class TransactionType
+    public enum TransactionType
     {
+        transfer,
+        salary
     }
 }
