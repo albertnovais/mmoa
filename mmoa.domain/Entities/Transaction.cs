@@ -1,5 +1,4 @@
-﻿using mmoa.domain.Entities;
-using mmoa.Domain.Entities;
+﻿using mmoa.Domain.Entities;
 using mmoa.Domain.Entities.Base;
 
 namespace mmoa.Domain.Entities

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace mmoa.Domain.Enums
 {
-    public enum TransactionType
+    public enum  BudgetStandardType
     {
-        transfer,
-        salary
+        Revenue,
+        Expense
     }
 }

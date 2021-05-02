@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="mmoa.Domain.Entities.Institution">
+    <Position X="14" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Institution.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="InstitutionType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="mmoa.Domain.Entities.Person">
+    <Position X="11.5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Entities\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mmoa.Domain.Entities.Transaction">
+    <Position X="14.5" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAEAAQAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Transaction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Institution" />
+      <Property Name="Person" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="mmoa.Domain.Entities.User">
+    <Position X="11.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAEAAAAAAAAAAAAAACAAAAAgAAAAA=</HashCode>
+      <FileName>Entities\User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Person" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="mmoa.Domain.Entities.Budget">
+    <Position X="8" Y="8.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAECAAAAEAAAQAQAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Entities\Budget.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DurationType" />
+      <Property Name="Parent" />
+      <Property Name="Person" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="mmoa.Domain.Entities.BudgetItem">
+    <Position X="2.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\BudgetItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BudgetStandard" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="mmoa.Domain.Entities.BudgetStandard">
+    <Position X="5.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAgAAAAAgAA=</HashCode>
+      <FileName>Entities\BudgetStandard.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BudgetStandardType" />
+      <Property Name="BudgetStandardGroup" />
+      <Property Name="Budget" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="mmoa.Domain.Entities.TransactionInfo">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAgAAAAAAAAAAAAgAAAAAAAAAAhAAAAAAA=</HashCode>
+      <FileName>Entities\TransactionInfo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Transaction" />
+      <Property Name="BudgetItem" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="mmoa.Domain.Entities.BudgetStandardGroup">
+    <Position X="4.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\BudgetStandardGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="mmoa.Domain.Enums.InstitutionType">
+    <Position X="16.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAQAAAAIAA=</HashCode>
+      <FileName>Enums\InstitutionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mmoa.Domain.Enums.DurationType">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAEAAAAAIAAAAA=</HashCode>
+      <FileName>Enums\DurationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mmoa.Domain.Enums.BudgetStandardType">
+    <Position X="4.75" Y="10.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Enums\BudgetStandardType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

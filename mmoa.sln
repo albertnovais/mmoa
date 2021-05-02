@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mmoa.Domain", "mmoa.domain\mmoa.Domain.csproj", "{86C409A0-786D-4FF7-80B6-8A95630E2425}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mmoa.Infra", "mmoa.Infra\mmoa.Infra.csproj", "{F2F0B3F5-8C98-437E-AFC8-C5E96D64CA28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mmoa.Api", "mmoa.Api\mmoa.Api.csproj", "{2A07941B-19FF-46DD-B830-84D9216F1B48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{86C409A0-786D-4FF7-80B6-8A95630E2425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C409A0-786D-4FF7-80B6-8A95630E2425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C409A0-786D-4FF7-80B6-8A95630E2425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F0B3F5-8C98-437E-AFC8-C5E96D64CA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F0B3F5-8C98-437E-AFC8-C5E96D64CA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F0B3F5-8C98-437E-AFC8-C5E96D64CA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F0B3F5-8C98-437E-AFC8-C5E96D64CA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A07941B-19FF-46DD-B830-84D9216F1B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A07941B-19FF-46DD-B830-84D9216F1B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A07941B-19FF-46DD-B830-84D9216F1B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A07941B-19FF-46DD-B830-84D9216F1B48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
