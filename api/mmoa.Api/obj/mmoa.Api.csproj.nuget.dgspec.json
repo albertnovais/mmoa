@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.Api\\mmoa.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.Api\\mmoa.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.Api\\mmoa.Api.csproj",
+        "projectName": "mmoa.Api",
+        "projectPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.Api\\mmoa.Api.csproj",
+        "packagesPath": "C:\\Users\\albert.mascarenhas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\albert.mascarenhas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.domain\\mmoa.Domain.csproj": {
+                "projectPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.domain\\mmoa.Domain.csproj"
+              },
+              "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.Infra\\mmoa.Infra.csproj": {
+                "projectPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.Infra\\mmoa.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.domain\\mmoa.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.domain\\mmoa.Domain.csproj",
+        "projectName": "mmoa.Domain",
+        "projectPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.domain\\mmoa.Domain.csproj",
+        "packagesPath": "C:\\Users\\albert.mascarenhas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\albert.mascarenhas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.Infra\\mmoa.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.Infra\\mmoa.Infra.csproj",
+        "projectName": "mmoa.Infra",
+        "projectPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.Infra\\mmoa.Infra.csproj",
+        "packagesPath": "C:\\Users\\albert.mascarenhas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\albert.mascarenhas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.domain\\mmoa.Domain.csproj": {
+                "projectPath": "C:\\Users\\albert.mascarenhas\\source\\repos\\mmoa\\api\\mmoa.domain\\mmoa.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
